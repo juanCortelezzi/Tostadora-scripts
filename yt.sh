@@ -1,4 +1,6 @@
 #!/bin/bash
+# scirpt created by https://github.com/sayan01
+# i just made a pr for it :)
 # dependencies: mpv youtube-dl fzf rofi/dmenu
 
 # explain usage
