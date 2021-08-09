@@ -4,9 +4,9 @@ selection=$(echo -e "Shutdown\nReboot" | dmenu -i -p "Select:")
 
 case "$selection" in
     Shutdown)
-        sudo shutdown now
+        doas shutdown now
         ;;
     Reboot)
-        sudo reboot
+        doas reboot
         ;;
 esac
